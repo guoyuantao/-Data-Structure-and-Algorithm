@@ -14,7 +14,7 @@ class Stack:
 
     def pop(self):
         """出栈"""
-        self.items.pop()
+        return self.items.pop()
 
     def peek(self):
         """返回栈顶元素"""
